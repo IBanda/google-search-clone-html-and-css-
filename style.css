@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    /* display: flex;
+    align-items: center; */
+}
+
+.main {
+    max-width: 585px;
+    margin: auto;
+    height: inherit;
+}
+
+.logo {
+    padding: 27% 0% 0;
+    display: flex;
+    margin-bottom: 7%;
+    justify-content: center;
+}
+
+.search-form input {
+    border: none;
+}
+
+.search-form img {
+    max-width: 100%;
+    width: 100%;
+    height: 60%;
+}
+
+.input-group {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13), 0 -1px 3px rgba(0, 0, 0, 0.19);
+}
+
+.input-group-prepend,
+.input-group-append {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.common-link {
+    width: 20%;
+    height: 90%;
+    text-align: center;
+    font-size: 13px;
+    padding: 20px 3px 0px;
+}
+
+.common-link:hover {
+    background-color: #f8f8f8;
+}
+
+.img-holder {
+    max-width: 47%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #eeeeee;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 12%;
+}
+
+.common-link img {
+    max-width: 90%;
+    margin: auto;
+}
+
+.add-shortcut {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px auto;
+}
+
+.main button {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3), 0 -0.1px 0px rgba(0, 0, 0, 0.19);
+    color: #1089ff;
+}
+
+.main button img {
+    max-width: 20%;
+    color: #1089ff;
+}
